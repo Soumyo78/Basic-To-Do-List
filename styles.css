@@ -25,24 +25,12 @@
 
 .main-container{
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .body-container{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.to-do-list{
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .btn-input-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
 }
 
 .to-do-list{
