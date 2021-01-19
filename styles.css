@@ -39,6 +39,7 @@
     font-family: 'Architects Daughter', cursive;
     font-weight: 900;
     color: darkgreen;
+    padding: 50px;
 }
 
 .input-entry{
@@ -46,6 +47,11 @@
     height: 30px;
     border-radius: 13px 13px 13px 13px;
     font-size: large;
+    padding-left: 30px;
+}
+
+.input-entry:focus, #add-btn:focus, #del-btn:focus{
+    outline: none;
 }
 
 .btn{
@@ -56,4 +62,5 @@
     border: 2px solid black;
     margin-right: 5px;
     margin-left: 5px;
+    cursor: pointer;
 }

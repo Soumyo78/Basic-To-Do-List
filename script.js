@@ -11,11 +11,12 @@ document.getElementById('add-btn').addEventListener("click", () =>{
         item.appendChild(document.createTextNode(list_array[i]));
     }
     document.getElementById('list-items').appendChild(item);
-    console.log(item);
+    document.getElementById('inputBox').value = "";
 })
 
 document.getElementById('del-btn').addEventListener("click", () =>{
     var del_num = document.getElementById('delInputBox').value;
     var olElem = document.getElementById('list-items');
     olElem.removeChild(olElem.childNodes[del_num]);
+    document.getElementById('delInputBox').value = "";
 })
